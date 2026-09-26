@@ -1,0 +1,8 @@
+services:
+  api:
+    build: .
+    image: mic-frequency-coordinator
+    container_name: mic-frequency-coordinator
+    ports:
+      - "${PORT:-8000}:8000"
+    restart: unless-stopped

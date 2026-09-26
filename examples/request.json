@@ -1,0 +1,8 @@
+{
+  "guard_interval": 100,
+  "microphones": [
+    {"id": "mic-1", "candidates": [470000, 470200, 470400], "original": 470000},
+    {"id": "mic-2", "candidates": [470100, 470300, 470500], "original": 470100},
+    {"id": "mic-3", "candidates": [470600, 470800, 471000]}
+  ]
+}
